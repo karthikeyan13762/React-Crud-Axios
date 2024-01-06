@@ -35,10 +35,10 @@ function Read() {
 
   return (
     <>
-      <div class="container mt-4">
+      <div className="container mt-4">
         <div className="text-center">Read , Update , Delete and Operation</div>
-        <div class="table-responsive">
-          <table class="table table-bordered">
+        <div className="table-responsive">
+          <table className="table table-bordered">
             <thead>
               <tr>
                 <th scope="col">Roll No</th>
