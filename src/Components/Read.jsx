@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 function Read() {
   const [apidata, setApidatat] = useState([]);

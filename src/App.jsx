@@ -25,11 +25,11 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/create" element={<Create />} />
+          <Route  path="/create" element={<Create />} />
 
-          <Route id="read" exact path="/read" element={<Read />} />
+          <Route id="read"  path="/read" element={<Read />} />
 
-          <Route exact path="/update" element={<Update />} />
+          <Route  path="/update" element={<Update />} />
         </Routes>
       </Router>
     </div>
